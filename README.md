@@ -1,4 +1,4 @@
-# Solos – Data Fetcher for Smart Glasses
+# Solosapp – Data Fetcher for Smart Glasses
 
 **Solos** is a lightweight and efficient Android-based app designed for **smart glasses**. It collects sensor data (accelerometer, gyroscope, magnetometer) directly from the glasses and streams it to a **RabbitMQ server** for real-time **Human Activity Recognition (HAR)**.
 
