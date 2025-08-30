@@ -65,16 +65,23 @@ Open ports **15672** and **5672** in Windows Firewall.
 
 ---
 
-## 📱 Solos Smart Glasses App Setup
+### **📱 5. Solos Smart Glasses App Setup**
 
-* Install the Solos app on your smart glasses (via Android Studio or APK).
-* Configure the following inside the app:
+Install the Solos mobile app on your smartphone (via Android Studio or APK).
 
-  * RabbitMQ Server IP
-  * Port: `5672`
-  * Username: `test`
-* Select which sensors from the glasses you want to stream.
-* Check `sendDataService.java` for credential configs.
+Pair your Solos smart glasses with your smartphone via Bluetooth.
+
+Inside the app, configure the following settings:
+
+RabbitMQ Server IP
+
+Port: 5672
+
+Username: test
+
+Select which sensors from the glasses you want to stream.
+
+Check sendDataService.java for credential configurations.
 
 ---
 
